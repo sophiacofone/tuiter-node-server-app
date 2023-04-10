@@ -5,7 +5,6 @@ const findTuits = async (req, res) => {
     res.json(tuits);
 }
 
-
 const createTuit = async (req, res) => {
   const newTuit = req.body;
   newTuit.likes = 0;
